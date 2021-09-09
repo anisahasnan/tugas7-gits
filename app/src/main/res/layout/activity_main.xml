@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/bg">
 
     <TextView
         android:id="@+id/title"
@@ -14,7 +15,8 @@
         android:text="Daftar Obat yang Tersedia"
         android:gravity="center"
         android:paddingBottom="20dp"
-        android:paddingTop="20dp"/>
+        android:paddingTop="20dp"
+        android:textStyle="bold"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
